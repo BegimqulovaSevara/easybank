@@ -1,3 +1,10 @@
+:root{
+  --dark-color:#2D314D;
+  --grey-color:#9597A5;
+  --hover-color:#30C88F;
+  --liner-first:#33D35E;
+  --liner-second:#2AB6D9;
+}
 /* GLOBAL */
 html {
     box-sizing: border-box;
@@ -17,7 +24,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: "Public Sans", "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: #fff;
