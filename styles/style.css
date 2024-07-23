@@ -84,6 +84,7 @@ ul{
   padding-top: 18px;
   padding-bottom: 18px;
   background-color: var(--white-color);
+  z-index: 99;
 }
 .header__container {
   display: flex;
@@ -106,14 +107,9 @@ ul{
 /* HERO SECTION */
 .hero {
   background-image: linear-gradient(180deg, #F4F5F7, #FFFFFF);
-
 }
 .hero__container {
   position: relative;
-  background-image: url(../images/hero-bg-desktop.png);
-  background-repeat: no-repeat;
-  background-size: 1371px 956px;
-  background-position: top right;
 }
 .information-wrapper {
   padding-top: 170px;
@@ -136,4 +132,11 @@ ul{
   position: absolute;
   top: -122px;
   right: -112px;
+  z-index: 2;
+}
+.hero-bg{
+  position: absolute;
+  top: -180px;
+  right: -571px;
+  z-index: 1;
 }
