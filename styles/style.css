@@ -65,6 +65,9 @@ ul{
   line-height: 28px;
   border-radius: 25px;
 }
+.request-button:hover{
+  opacity: 40%;
+}
 /* Site logo */
 .logo-wrapper{
   display: flex;
@@ -98,10 +101,15 @@ ul{
   margin-right: 30px;
 }
 .navigation__link{
+  padding-bottom:32px ;
   color: var(--grey-color);
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -0.11px;
+}
+.navigation__link:hover{
+  color: var(--dark-color);
+  border-bottom: 4px solid var(--liner-first);
 }
 
 /* HERO SECTION */
@@ -205,8 +213,6 @@ ul{
   padding-bottom: 80px;
   padding-top: 80px;
 }
-.articles__container {
-}
 .articles__title {
   margin-top: 0;
   font-weight: 100;
@@ -250,6 +256,9 @@ ul{
   letter-spacing: -0.29px;
   color: var(--dark-color);
 }
+.articles__list-title:hover{
+  color: var(--hover-color);
+}
 .articles__list-paragraph {
   margin-bottom: 0;
   padding-left: 24px;
@@ -279,9 +288,13 @@ ul{
 }
 .socials-img {
   display: block;
+  color: var(--white-color);
 }
 .socials-img:not(:last-child){
   margin-right: 14px;
+}
+.socials-img:hover{
+  color: var(--hover-color);
 }
 .list-wrapper {
   margin-right: auto;
@@ -303,6 +316,9 @@ ul{
   font-size: 15px;
   line-height: 26px;
   letter-spacing: -0.23px;
+}
+.footer__link:hover{
+  color: var(--hover-color);
 }
 .info {
   margin-top: 40px;
